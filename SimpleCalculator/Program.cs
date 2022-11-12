@@ -26,6 +26,13 @@ namespace SimpleCalculator
             Console.WriteLine("Select operation: +, -, *, / ");
             operation = Console.ReadLine();
 
+            switch (operation)
+            {
+                //romanenko_віднімання
+                case "-":
+                    answer = a - b;
+                    break;
+            }
         }
     }
 }
