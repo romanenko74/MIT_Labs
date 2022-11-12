@@ -10,6 +10,21 @@ namespace SimpleCalculator
     {
         static void Main(string[] args)
         {
+            //romanenko_визначення змінних
+            double a;
+            double b;
+            string operation;
+            double answer;
+
+            //romanenko_введення даних та вибір операції
+            Console.WriteLine("Enter the first number: ");
+            a = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter the second number: ");
+            b = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Select operation: +, -, *, / ");
+            operation = Console.ReadLine();
         }
     }
 }
