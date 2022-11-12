@@ -25,6 +25,7 @@ namespace SimpleCalculator
 
             Console.WriteLine("Select operation: +, -, *, / ");
             operation = Console.ReadLine();
+
         }
     }
 }
